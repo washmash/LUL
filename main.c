@@ -4,26 +4,26 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-void bubbleSort(int * array, unsigned int size );
+void bubbleSort(int * array, unsigned int size );/*prototye*/
 
 int main(void) {
-	int a[SIZE]={1,3,5,7,9,2,4,6,8,10};
+	int a[SIZE]={1,3,5,7,9,2,4,6,8,10};/*initlize arry a*/
 	
-	unsigned int i;
+	unsigned int i; /*declare*/
 	
 	puts(" before");
 	
 		for(i=0;i<SIZE;++i){
 			printf("%4d ",a[i]);
-		}
+		}/*end for*/
 		
-		bubbleSort(a, SIZE);
+		bubbleSort(a, SIZE);/*sort the array*/
 		
-		puts("\n after");
+		puts("\n after");/*loop through*/
 		
 		for(i=0;i<SIZE;++i){
 			printf("%4d ",a[i]);
 	    }
 		
 		puts("");
-}
+}/*end main*/
